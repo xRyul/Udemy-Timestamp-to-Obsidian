@@ -32,7 +32,7 @@ function sendMessageToTabs(tabs) {
 		var copyTimestamp = navigator.clipboard.writeText("[" + mTimestamp + "]" + "" + "(" + url1 + newtime + ")" + " ");
 		
 
-		// var pasteIT = console.log("[" + mTimestamp + "]" + "" + "(" + url1 + newtime + ")");
+		var pasteIT = console.log("[" + mTimestamp + "]" + "" + "(" + url1 + newtime + ")");
 
 		//Focus obsidian
 		window.open('obsidian://open?', '_self');
